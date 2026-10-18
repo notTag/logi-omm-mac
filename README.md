@@ -1,8 +1,14 @@
 # logi-omm-mac
 
-A small macOS replacement for Logitech's Windows-only Onboard Memory Manager, built for the
-**G604 LIGHTSPEED**. It edits the button bindings stored on the mouse itself, so they work
-on any computer without G HUB or any other driver running.
+Mapping and revert scripts for the **Logitech G604 LIGHTSPEED** mouse on macOS.
+
+The scripts set the side buttons to generic mouse buttons, so a third-party button mapper
+(BetterMouse, BetterTouchTool, etc.) can assign shortcuts to them. That means you don't
+need Logitech's bloated G HUB, which often fails to load anyway. Logitech's Onboard Memory
+Manager (OMM) can do the same thing, but it only runs on Windows.
+
+The bindings are written to the mouse's onboard memory, so they keep working on any
+computer with no Logitech software running.
 
 Requires [uv](https://docs.astral.sh/uv/). Your terminal needs **Input Monitoring** permission
 (System Settings > Privacy & Security > Input Monitoring).
